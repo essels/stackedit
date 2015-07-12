@@ -199,7 +199,7 @@ gulp.task('cache-manifest', function() {
 						filepath += '?config=TeX-AMS_HTML';
 					}
 					else {
-						filepath += '?rev=2.5.0';
+						filepath += '?rev=2.5.3';
 					}
 					return filepath.substring(1);
 				}
